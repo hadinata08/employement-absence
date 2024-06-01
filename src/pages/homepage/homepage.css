@@ -1,0 +1,74 @@
+@media (min-width: 414px) {
+  .body-container {
+    height: calc(100% - 56px);
+    min-width: 414px;
+    left: 50%;
+    overflow: hidden;
+    position: relative;
+    font-family: "Inter", sans-serif;
+    transform: translate(-50%, 0);
+  }
+}
+
+.body-container {
+  height: calc(100% - 56px);
+  max-width: 414px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -2px 8px;
+}
+
+.card-employee-info {
+  background-image: linear-gradient(
+    to right bottom,
+    #f02722,
+    #eb123d,
+    #e20a53,
+    #d41866,
+    #c22775
+  );
+}
+
+button[aria-label="Slide 2"] {
+  background-color: #eb123d;
+  margin-bottom: -100px !important;
+  margin-top: 30px !important;
+}
+
+button[aria-label="Slide 1"],
+button[aria-label="Slide 3"] {
+  background-color: #b4b3b3;
+  margin-bottom: -100px !important;
+  margin-top: 30px !important;
+}
+a {
+  background-image: linear-gradient(
+    to right bottom,
+    #f02722,
+    #eb123d,
+    #e20a53,
+    #d41866,
+    #c22775
+  );
+}
+
+@media (min-width: 414px) {
+  .bottom-navigation {
+    left: 50%;
+    transform: translate(-50%, 0);
+  }
+}
+
+.bottom-navigation {
+  display: flex;
+  height: 56px;
+  position: fixed;
+  bottom: 0px;
+  justify-content: space-around;
+  width: 100%;
+  max-width: 414px;
+  align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -2px 8px;
+  background: #ffffff;
+}

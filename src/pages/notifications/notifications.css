@@ -1,0 +1,19 @@
+.body-container {
+  height: calc(100% - 56px);
+  max-width: 414px;
+  overflow: hidden;
+  position: relative;
+  font-family: "Inter", sans-serif;
+  box-shadow: rgba(0, 0, 0, 0.2) 0 -2px 8px;
+}
+
+.image-container {
+  background: linear-gradient(
+    to right bottom,
+    #f02722,
+    #eb123d,
+    #e20a53,
+    #d41866,
+    #c22775
+  );
+}
